@@ -22,8 +22,8 @@
         {
           "type": "git",
           "url": "https://centrifuge.hectabit.org/HectaBit/Burgernotes-App.git",
-          "tag": "1.1-2",
-          "commit": "e51a3eb7851cb67387cda91451ffa4106ef5ff88"
+          "tag": "1.2",
+          "commit": "82b6316e4af32fa813ee2aff3075282f6f0de2a7"
         }
       ]
     }
