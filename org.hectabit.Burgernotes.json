@@ -1,8 +1,11 @@
 {
   "id": "org.hectabit.Burgernotes",
   "runtime": "org.gnome.Platform",
-  "runtime-version": "45",
+  "runtime-version": "46",
   "sdk": "org.gnome.Sdk",
+  "sdk-extensions": [
+    "org.freedesktop.Sdk.Extension.golang"
+  ],
   "command": "burgernotes",
   "finish-args": [
     "--share=network",
@@ -16,14 +19,14 @@
       "name": "Burgernotes",
       "buildsystem": "simple",
       "build-commands": [
-        "make install DESTDIR=/app/bin/ SHAREDIR=/app/share/"
+        "make install DESTDIR=/app/bin/ SHAREDIR=/app/share/ GO=/usr/lib/sdk/golang/bin/go"
       ],
       "sources": [
         {
           "type": "git",
           "url": "https://centrifuge.hectabit.org/HectaBit/Burgernotes-App.git",
           "tag": "1.3",
-          "commit": "f9ffc9b521ce5a0ce0738ce32066cc5f687a5c8e"
+          "commit": "a4851fa6d3aff6c8ea901d8700f7eb28617687b1"
         }
       ]
     }
