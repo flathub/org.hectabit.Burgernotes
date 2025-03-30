@@ -25,8 +25,8 @@
         {
           "type": "git",
           "url": "https://github.com/ailur-archives/burgernotes-app",
-          "tag": "1.4",
-          "commit": "49182fd220a152fdfd70c0eb37f79560ba1805f5"
+          "tag": "1.5",
+          "commit": "b8355808ffab3356066e4204cffe3995e9daa3b8"
         }
       ]
     }
