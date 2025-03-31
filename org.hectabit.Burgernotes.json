@@ -3,10 +3,7 @@
   "runtime": "org.gnome.Platform",
   "runtime-version": "46",
   "sdk": "org.gnome.Sdk",
-  "sdk-extensions": [
-    "org.freedesktop.Sdk.Extension.golang"
-  ],
-  "command": "burgernotes",
+  "command": "ls",
   "finish-args": [
     "--share=network",
     "--socket=fallback-x11",
@@ -19,14 +16,11 @@
       "name": "Burgernotes",
       "buildsystem": "simple",
       "build-commands": [
-        "make install DESTDIR=/app/bin/ SHAREDIR=/app/share/ GO=/usr/lib/sdk/golang/bin/go"
+        "echo 'This does nothing.'"
       ],
       "sources": [
         {
-          "type": "git",
-          "url": "https://github.com/ailur-archives/burgernotes-app",
-          "tag": "1.5",
-          "commit": "b8355808ffab3356066e4204cffe3995e9daa3b8"
+          "type": "none"
         }
       ]
     }
